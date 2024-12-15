@@ -1,11 +1,11 @@
 close all
 clear
 clc
-addpath(genpath('C:\Users\Sneharun\Desktop\HandWritten-Text-Recognition\testImages'))
+addpath(genpath('C:\Users\Abu Sufiyan\OneDrive - Dawood University of Engineering Technology\Desktop'))
 
 load('network.mat');
 
-imagePath = fullfile('testImages','a.jpg');
+imagePath = fullfile('download','a.jpeg');
 originalImage = imread(imagePath);
 
 imshow(originalImage);
